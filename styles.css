@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+.solapa{
+    text-align: justify;
+}
+header {
+    background-color: hsl(244, 95%, 31%);
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.photo-container {
+    width: 30%;
+}
+
+.photo-container img {
+    width: 100%;
+    border-radius: 50%; /* Ajusta según tus preferencias */
+}
+
+.title-container {
+    width: 70%;
+    padding-left: 20px; /* Espacio entre la foto y el título */
+    font-size: 0.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: font-size 0.3s, box-shadow 0.3s;
+}
+
+.menu a:hover {
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    background-color: hsl(244, 95%, 31%);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.5em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rights,
+.social-icons {
+    flex: 1;
+}
+
+.social-icons p {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    padding-left: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* a partir de aca el formulario de contacto*/
+#formulario-container {
+    max-width: 400px;
+    margin: 50px auto;
+
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(255,0,0,1) 100%);
+
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#descripcion {
+    margin-top: 60px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #043150;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
